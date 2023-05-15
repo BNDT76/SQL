@@ -1,0 +1,23 @@
+CREATE TABLE prints_inventory (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER);
+
+INSERT INTO prints_inventory VALUES (1, "Starry Night", 5);
+INSERT INTO prints_inventory VALUES (2, "Waterlilies", 9);
+INSERT INTO prints_inventory VAlUES (3, "Mona Lisa", 7);
+INSERT INTO prints_inventory VALUES (4, "Sunfowers", 13);
+INSERT INTO prints_inventory VALUES (5, "The Scream", 13);
+INSERT INTO prints_inventory VALUES (6, "Cafe Terrace at Night", 17);
+INSERT INTO prints_inventory VALUES (7, "The Kiss", 23);
+INSERT INTO prints_inventory VALUES (8, "Luncheon of the Boating Party", 34);
+INSERT INTO prints_inventory VALUES (9, "Olympia", 57);
+INSERT INTO prints_inventory VALUES (10, "Van Gogh Self Portrait", 42);
+INSERT INTO prints_inventory VALUES (11, "Nude Sitting on a Divan", 57);
+INSERT INTO prints_inventory VALUES (12, "Reclining Nude", 40);
+INSERT INTO prints_inventory VALUES (13, "La Petit Fleurs", 34);
+INSERT INTO prints_inventory VALUES (14, "Blue Woman", 69);
+INSERT INTO prints_inventory VALUES (15, "Luncheon on the Grass", 52);
+
+SELECT * FROM prints_inventory
+
+ORDER BY quantity DESC
+
+
